@@ -28,7 +28,7 @@ export default function Login() {
       }else{
         localStorage.setItem('access_token', 'W3LLDoneYou4r3In')
         localStorage.setItem('email', loginPass.Login)
-        Navigate("/");
+        Navigate("/profile");
       }
     }
   }

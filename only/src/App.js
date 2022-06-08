@@ -18,7 +18,7 @@ function App() {
           }
         />
         <Route
-          path="/"
+          path="/profile"
           element={
             <RequireAuth>
               {" "}
