@@ -18,9 +18,6 @@ export default function Login() {
     login: 'steve.jobs@example.com',
     pass: 'password'
   }
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-
-
 
   const LoginCheck = () => {
     if(loginPass.Login !== loginAndPass.login){
